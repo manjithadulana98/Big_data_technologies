@@ -1,0 +1,6 @@
+
+=== Evaluation Metrics ===
+Accuracy : 0.34151472650771386
+Precision: 0.34954419864596054
+Recall   : 0.3415147265077139
+F1 Score : 0.3304575912596671

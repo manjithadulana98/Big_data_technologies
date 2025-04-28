@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lyrics Genre Classifier</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h2>Paste Lyrics</h2>
+  <textarea id="lyricsInput" rows="10" cols="80"></textarea><br>
+  <button onclick="predictGenre()">Predict Genre</button>
+
+  <!-- Here's the critical canvas element -->
+  <div style="width: 800px; height: 400px;">
+    <canvas id="genreChart"></canvas>
+  </div>
+</body>
+</html>
